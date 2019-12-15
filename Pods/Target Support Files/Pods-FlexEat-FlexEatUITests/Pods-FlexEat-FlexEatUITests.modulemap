@@ -1,0 +1,6 @@
+framework module Pods_FlexEat_FlexEatUITests {
+  umbrella header "Pods-FlexEat-FlexEatUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
