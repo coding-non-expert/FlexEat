@@ -1,4 +1,4 @@
-# Uncomment the next line to define a global platform for your project
+ # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
 target 'FlexEat' do
@@ -7,8 +7,7 @@ target 'FlexEat' do
 
   # Pods for FlexEat
 
-  pod 'Firebase/Core'
-  pod 'Firebase/Database'
+  pod 'Firebase/Analytics'
   pod 'Firebase/Auth'
 
   target 'FlexEatTests' do

@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>880430721428-n3va8hbpm9h369jlpbsp337lo471aa49.apps.googleusercontent.com</string>
+	<string>403427799342-lus0goc4m7r1hma8ec68pmgmst6sdf2n.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.880430721428-n3va8hbpm9h369jlpbsp337lo471aa49</string>
+	<string>com.googleusercontent.apps.403427799342-lus0goc4m7r1hma8ec68pmgmst6sdf2n</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCnRyAAS13OkY-c3hoRZfgRNw88J6nSEhc</string>
+	<string>AIzaSyDne5hUQwWFxg36oxs_xlGDN9kyoGUAD9U</string>
 	<key>GCM_SENDER_ID</key>
-	<string>880430721428</string>
+	<string>403427799342</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.celesteanddanielle.FlexEat</string>
 	<key>PROJECT_ID</key>
-	<string>flexeat-d3022</string>
+	<string>flexeat-yeet</string>
 	<key>STORAGE_BUCKET</key>
-	<string>flexeat-d3022.appspot.com</string>
+	<string>flexeat-yeet.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:880430721428:ios:7b9289762c17aa527ac781</string>
+	<string>1:403427799342:ios:e49876cb08b923365c0abf</string>
 	<key>DATABASE_URL</key>
-	<string>https://flexeat-d3022.firebaseio.com</string>
+	<string>https://flexeat-yeet.firebaseio.com</string>
 </dict>
 </plist>

@@ -3,14 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		935024F623A6A72E00990A3C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 935024F523A6A72D00990A3C /* GoogleService-Info.plist */; };
+		1A70FCFB8618BBCB0BEE4228 /* Pods_FlexEatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6463E243743AF6524528104E /* Pods_FlexEatTests.framework */; };
+		29B67CF1EE1053C13C50E6AA /* Pods_FlexEat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59087A3152191830D35A05C7 /* Pods_FlexEat.framework */; };
+		37F8558B373ECFD2BFA7CBCB /* Pods_FlexEat_FlexEatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C44998ED20C2A1D6A73F40E /* Pods_FlexEat_FlexEatUITests.framework */; };
 		935024F823A6B57100990A3C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935024F723A6B57100990A3C /* LoginViewController.swift */; };
 		935024FA23A6BA7800990A3C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935024F923A6BA7800990A3C /* SignUpViewController.swift */; };
 		935024FC23A6BA8000990A3C /* StartingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935024FB23A6BA8000990A3C /* StartingViewController.swift */; };
+		93916A0B23A6C8A40076A53F /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93916A0A23A6C8A40076A53F /* Utilities.swift */; };
+		93916A0E23A6CC5A0076A53F /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = 93916A0D23A6CC5A0076A53F /* GoogleService-Info (2).plist */; };
 		9392579523A68D7B0061C1B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392579423A68D7B0061C1B8 /* AppDelegate.swift */; };
 		9392579723A68D7B0061C1B8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392579623A68D7B0061C1B8 /* FirstViewController.swift */; };
 		9392579923A68D7B0061C1B8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392579823A68D7B0061C1B8 /* SecondViewController.swift */; };
@@ -39,10 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		935024F523A6A72D00990A3C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0C44998ED20C2A1D6A73F40E /* Pods_FlexEat_FlexEatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexEat_FlexEatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35FA322EDE221A5E9C5DEC65 /* Pods-FlexEat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexEat.release.xcconfig"; path = "Target Support Files/Pods-FlexEat/Pods-FlexEat.release.xcconfig"; sourceTree = "<group>"; };
+		59087A3152191830D35A05C7 /* Pods_FlexEat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexEat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6463E243743AF6524528104E /* Pods_FlexEatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexEatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E1BCDDD2F2E41750DEF214 /* Pods-FlexEatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexEatTests.release.xcconfig"; path = "Target Support Files/Pods-FlexEatTests/Pods-FlexEatTests.release.xcconfig"; sourceTree = "<group>"; };
 		935024F723A6B57100990A3C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		935024F923A6BA7800990A3C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		935024FB23A6BA8000990A3C /* StartingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingViewController.swift; sourceTree = "<group>"; };
+		93916A0A23A6C8A40076A53F /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		93916A0D23A6CC5A0076A53F /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (2).plist"; sourceTree = "<group>"; };
 		9392579123A68D7B0061C1B8 /* FlexEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9392579423A68D7B0061C1B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9392579623A68D7B0061C1B8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +67,10 @@
 		939257B223A68D7E0061C1B8 /* FlexEatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexEatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		939257B623A68D7E0061C1B8 /* FlexEatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexEatUITests.swift; sourceTree = "<group>"; };
 		939257B823A68D7E0061C1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5667BD71006CDFFBC885144 /* Pods-FlexEat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexEat.debug.xcconfig"; path = "Target Support Files/Pods-FlexEat/Pods-FlexEat.debug.xcconfig"; sourceTree = "<group>"; };
+		A6252159F0D3028F387FFEEE /* Pods-FlexEat-FlexEatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexEat-FlexEatUITests.release.xcconfig"; path = "Target Support Files/Pods-FlexEat-FlexEatUITests/Pods-FlexEat-FlexEatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E497257A7A0845F204A5C03B /* Pods-FlexEatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexEatTests.debug.xcconfig"; path = "Target Support Files/Pods-FlexEatTests/Pods-FlexEatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF6380C0EF385142E589DC25 /* Pods-FlexEat-FlexEatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexEat-FlexEatUITests.debug.xcconfig"; path = "Target Support Files/Pods-FlexEat-FlexEatUITests/Pods-FlexEat-FlexEatUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B67CF1EE1053C13C50E6AA /* Pods_FlexEat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A70FCFB8618BBCB0BEE4228 /* Pods_FlexEatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,17 +94,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37F8558B373ECFD2BFA7CBCB /* Pods_FlexEat_FlexEatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D2E26301D61126408CD1C39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59087A3152191830D35A05C7 /* Pods_FlexEat.framework */,
+				0C44998ED20C2A1D6A73F40E /* Pods_FlexEat_FlexEatUITests.framework */,
+				6463E243743AF6524528104E /* Pods_FlexEatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6115B34C2797682EBBC9D689 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				A5667BD71006CDFFBC885144 /* Pods-FlexEat.debug.xcconfig */,
+				35FA322EDE221A5E9C5DEC65 /* Pods-FlexEat.release.xcconfig */,
+				EF6380C0EF385142E589DC25 /* Pods-FlexEat-FlexEatUITests.debug.xcconfig */,
+				A6252159F0D3028F387FFEEE /* Pods-FlexEat-FlexEatUITests.release.xcconfig */,
+				E497257A7A0845F204A5C03B /* Pods-FlexEatTests.debug.xcconfig */,
+				89E1BCDDD2F2E41750DEF214 /* Pods-FlexEatTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		93916A0C23A6C8AF0076A53F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				935024F923A6BA7800990A3C /* SignUpViewController.swift */,
+				9392579623A68D7B0061C1B8 /* FirstViewController.swift */,
+				9392579823A68D7B0061C1B8 /* SecondViewController.swift */,
+				935024FB23A6BA8000990A3C /* StartingViewController.swift */,
+				935024F723A6B57100990A3C /* LoginViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 		9392578823A68D7B0061C1B8 = {
@@ -99,6 +144,7 @@
 				939257B523A68D7E0061C1B8 /* FlexEatUITests */,
 				9392579223A68D7B0061C1B8 /* Products */,
 				6115B34C2797682EBBC9D689 /* Pods */,
+				1D2E26301D61126408CD1C39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,14 +162,11 @@
 			isa = PBXGroup;
 			children = (
 				9392579423A68D7B0061C1B8 /* AppDelegate.swift */,
-				9392579623A68D7B0061C1B8 /* FirstViewController.swift */,
-				9392579823A68D7B0061C1B8 /* SecondViewController.swift */,
 				9392579A23A68D7B0061C1B8 /* Main.storyboard */,
-				935024F923A6BA7800990A3C /* SignUpViewController.swift */,
-				935024FB23A6BA8000990A3C /* StartingViewController.swift */,
-				935024F723A6B57100990A3C /* LoginViewController.swift */,
+				93916A0C23A6C8AF0076A53F /* View Controllers */,
+				93916A0A23A6C8A40076A53F /* Utilities.swift */,
 				9392579D23A68D7E0061C1B8 /* Assets.xcassets */,
-				935024F523A6A72D00990A3C /* GoogleService-Info.plist */,
+				93916A0D23A6CC5A0076A53F /* GoogleService-Info (2).plist */,
 				9392579F23A68D7E0061C1B8 /* LaunchScreen.storyboard */,
 				939257A223A68D7E0061C1B8 /* Info.plist */,
 			);
@@ -155,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 939257BB23A68D7E0061C1B8 /* Build configuration list for PBXNativeTarget "FlexEat" */;
 			buildPhases = (
+				DE37AF68F8FD56DF3A428D75 /* [CP] Check Pods Manifest.lock */,
 				9392578D23A68D7B0061C1B8 /* Sources */,
 				9392578E23A68D7B0061C1B8 /* Frameworks */,
 				9392578F23A68D7B0061C1B8 /* Resources */,
+				074D5ED56F536357F7E69F23 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 939257BE23A68D7E0061C1B8 /* Build configuration list for PBXNativeTarget "FlexEatTests" */;
 			buildPhases = (
+				5229AA8D217AD73EAEE6D116 /* [CP] Check Pods Manifest.lock */,
 				939257A323A68D7E0061C1B8 /* Sources */,
 				939257A423A68D7E0061C1B8 /* Frameworks */,
 				939257A523A68D7E0061C1B8 /* Resources */,
@@ -190,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 939257C123A68D7E0061C1B8 /* Build configuration list for PBXNativeTarget "FlexEatUITests" */;
 			buildPhases = (
+				95A934B213C6D2F68A266CA7 /* [CP] Check Pods Manifest.lock */,
 				939257AE23A68D7E0061C1B8 /* Sources */,
 				939257AF23A68D7E0061C1B8 /* Frameworks */,
 				939257B023A68D7E0061C1B8 /* Resources */,
+				A43227D972C9B0D5B2F9B38D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,8 +301,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				939257A123A68D7E0061C1B8 /* LaunchScreen.storyboard in Resources */,
-				935024F623A6A72E00990A3C /* GoogleService-Info.plist in Resources */,
 				9392579E23A68D7E0061C1B8 /* Assets.xcassets in Resources */,
+				93916A0E23A6CC5A0076A53F /* GoogleService-Info (2).plist in Resources */,
 				9392579C23A68D7B0061C1B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +323,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		074D5ED56F536357F7E69F23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlexEat/Pods-FlexEat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlexEat/Pods-FlexEat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlexEat/Pods-FlexEat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5229AA8D217AD73EAEE6D116 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlexEatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95A934B213C6D2F68A266CA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlexEat-FlexEatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A43227D972C9B0D5B2F9B38D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlexEat-FlexEatUITests/Pods-FlexEat-FlexEatUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlexEat-FlexEatUITests/Pods-FlexEat-FlexEatUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlexEat-FlexEatUITests/Pods-FlexEat-FlexEatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE37AF68F8FD56DF3A428D75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlexEat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9392578D23A68D7B0061C1B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -282,6 +433,7 @@
 			files = (
 				935024F823A6B57100990A3C /* LoginViewController.swift in Sources */,
 				9392579923A68D7B0061C1B8 /* SecondViewController.swift in Sources */,
+				93916A0B23A6C8A40076A53F /* Utilities.swift in Sources */,
 				9392579523A68D7B0061C1B8 /* AppDelegate.swift in Sources */,
 				9392579723A68D7B0061C1B8 /* FirstViewController.swift in Sources */,
 				935024FC23A6BA8000990A3C /* StartingViewController.swift in Sources */,
@@ -458,6 +610,7 @@
 		};
 		939257BC23A68D7E0061C1B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5667BD71006CDFFBC885144 /* Pods-FlexEat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -476,6 +629,7 @@
 		};
 		939257BD23A68D7E0061C1B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35FA322EDE221A5E9C5DEC65 /* Pods-FlexEat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +648,7 @@
 		};
 		939257BF23A68D7E0061C1B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E497257A7A0845F204A5C03B /* Pods-FlexEatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +670,7 @@
 		};
 		939257C023A68D7E0061C1B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E1BCDDD2F2E41750DEF214 /* Pods-FlexEatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +692,7 @@
 		};
 		939257C223A68D7E0061C1B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF6380C0EF385142E589DC25 /* Pods-FlexEat-FlexEatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -556,6 +713,7 @@
 		};
 		939257C323A68D7E0061C1B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6252159F0D3028F387FFEEE /* Pods-FlexEat-FlexEatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
