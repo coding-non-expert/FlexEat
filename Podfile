@@ -9,7 +9,7 @@ target 'FlexEat' do
 
   pod 'Firebase/Core'
   pod 'Firebase/Database'
-  pod 'FirebaseUI/Auth'
+  pod 'Firebase/Auth'
 
   target 'FlexEatTests' do
     inherit! :search_paths
