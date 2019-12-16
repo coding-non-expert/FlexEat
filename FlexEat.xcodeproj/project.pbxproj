@@ -17,9 +17,11 @@
 		93916A1223A6D0510076A53F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93916A1123A6D0510076A53F /* GoogleService-Info.plist */; };
 		93916A1423A774DE0076A53F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93916A1323A774DE0076A53F /* Constants.swift */; };
 		93916A1623A778F80076A53F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93916A1523A778F80076A53F /* TabBarViewController.swift */; };
+		93916A2223A7C6C10076A53F /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93916A2123A7C6C10076A53F /* UserInfo.swift */; };
+		93916A2623A7CACA0076A53F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93916A2523A7CACA0076A53F /* HomeViewController.swift */; };
+		93916A2823A7CAD60076A53F /* StoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93916A2723A7CAD60076A53F /* StoriesViewController.swift */; };
+		93916A2A23A7CAE00076A53F /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93916A2923A7CAE00076A53F /* GamesViewController.swift */; };
 		9392579523A68D7B0061C1B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392579423A68D7B0061C1B8 /* AppDelegate.swift */; };
-		9392579723A68D7B0061C1B8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392579623A68D7B0061C1B8 /* FirstViewController.swift */; };
-		9392579923A68D7B0061C1B8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392579823A68D7B0061C1B8 /* SecondViewController.swift */; };
 		9392579C23A68D7B0061C1B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9392579A23A68D7B0061C1B8 /* Main.storyboard */; };
 		9392579E23A68D7E0061C1B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9392579D23A68D7E0061C1B8 /* Assets.xcassets */; };
 		939257A123A68D7E0061C1B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9392579F23A68D7E0061C1B8 /* LaunchScreen.storyboard */; };
@@ -57,10 +59,12 @@
 		93916A1123A6D0510076A53F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		93916A1323A774DE0076A53F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		93916A1523A778F80076A53F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		93916A2123A7C6C10076A53F /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		93916A2523A7CACA0076A53F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		93916A2723A7CAD60076A53F /* StoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesViewController.swift; sourceTree = "<group>"; };
+		93916A2923A7CAE00076A53F /* GamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
 		9392579123A68D7B0061C1B8 /* FlexEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9392579423A68D7B0061C1B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9392579623A68D7B0061C1B8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		9392579823A68D7B0061C1B8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		9392579B23A68D7B0061C1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9392579D23A68D7E0061C1B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		939257A023A68D7E0061C1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -133,12 +137,23 @@
 			children = (
 				93916A1523A778F80076A53F /* TabBarViewController.swift */,
 				935024F923A6BA7800990A3C /* SignUpViewController.swift */,
-				9392579623A68D7B0061C1B8 /* FirstViewController.swift */,
-				9392579823A68D7B0061C1B8 /* SecondViewController.swift */,
 				935024FB23A6BA8000990A3C /* StartingViewController.swift */,
+				93916A2523A7CACA0076A53F /* HomeViewController.swift */,
+				93916A2723A7CAD60076A53F /* StoriesViewController.swift */,
+				93916A2923A7CAE00076A53F /* GamesViewController.swift */,
 				935024F723A6B57100990A3C /* LoginViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		93916A2B23A7D5D40076A53F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				93916A2123A7C6C10076A53F /* UserInfo.swift */,
+				93916A1323A774DE0076A53F /* Constants.swift */,
+				93916A0A23A6C8A40076A53F /* Utilities.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		9392578823A68D7B0061C1B8 = {
@@ -168,9 +183,8 @@
 			children = (
 				9392579423A68D7B0061C1B8 /* AppDelegate.swift */,
 				9392579A23A68D7B0061C1B8 /* Main.storyboard */,
-				93916A1323A774DE0076A53F /* Constants.swift */,
+				93916A2B23A7D5D40076A53F /* Helpers */,
 				93916A0C23A6C8AF0076A53F /* View Controllers */,
-				93916A0A23A6C8A40076A53F /* Utilities.swift */,
 				9392579D23A68D7E0061C1B8 /* Assets.xcassets */,
 				9392579F23A68D7E0061C1B8 /* LaunchScreen.storyboard */,
 				93916A1123A6D0510076A53F /* GoogleService-Info.plist */,
@@ -437,14 +451,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93916A2823A7CAD60076A53F /* StoriesViewController.swift in Sources */,
 				935024F823A6B57100990A3C /* LoginViewController.swift in Sources */,
-				9392579923A68D7B0061C1B8 /* SecondViewController.swift in Sources */,
 				93916A0B23A6C8A40076A53F /* Utilities.swift in Sources */,
 				9392579523A68D7B0061C1B8 /* AppDelegate.swift in Sources */,
 				93916A1623A778F80076A53F /* TabBarViewController.swift in Sources */,
-				9392579723A68D7B0061C1B8 /* FirstViewController.swift in Sources */,
 				935024FC23A6BA8000990A3C /* StartingViewController.swift in Sources */,
+				93916A2623A7CACA0076A53F /* HomeViewController.swift in Sources */,
+				93916A2A23A7CAE00076A53F /* GamesViewController.swift in Sources */,
 				935024FA23A6BA7800990A3C /* SignUpViewController.swift in Sources */,
+				93916A2223A7C6C10076A53F /* UserInfo.swift in Sources */,
 				93916A1423A774DE0076A53F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

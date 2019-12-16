@@ -8,8 +8,19 @@
 
 import Foundation
 import UIKit
+import QuartzCore
 
 class Utilities {
+    
+    static func styleCoinsLabel (_ label: UILabel) {
+        
+        // Filled rounded corner style
+        label.backgroundColor = UIColor.init(red: 244/255, green: 175/255, blue: 54/255, alpha: 1)
+        label.layer.cornerRadius = 25.0
+        label.tintColor = UIColor.init(red: 244/255, green: 175/255, blue: 54/255, alpha: 1)
+        label.layer.masksToBounds = true
+        
+    }
     
     static func styleTextField(_ textfield:UITextField) {
         
