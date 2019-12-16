@@ -34,6 +34,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o7g-V2-weZ">
                                         <rect key="frame" x="0.0" y="70" width="334" height="50"/>
                                         <state key="normal" title="Log In"/>
+                                        <connections>
+                                            <segue destination="5no-28-gFB" kind="show" id="hcc-Ve-9yq"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -68,7 +71,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="vHY-Qt-Jqi">
-                                <rect key="frame" x="40" y="84" width="334" height="370.5"/>
+                                <rect key="frame" x="40" y="84" width="334" height="450"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JPL-92-Rbl">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="50"/>
@@ -104,10 +107,13 @@
                                             <action selector="signUpButtonTapped:" destination="mNL-Ze-hFE" eventType="touchUpInside" id="VPX-Cr-OOB"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z4n-jR-iTz">
-                                        <rect key="frame" x="0.0" y="350" width="334" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z4n-jR-iTz">
+                                        <rect key="frame" x="0.0" y="350" width="334" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="lZW-oc-Y4i"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="1" green="0.21929237900000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -170,7 +176,6 @@
                                         </constraints>
                                         <state key="normal" title="Login"/>
                                         <connections>
-                                            <action selector="loginButtonClicked:" destination="5no-28-gFB" eventType="touchUpInside" id="ggc-2c-NoU"/>
                                             <action selector="loginButtonTapped:" destination="5no-28-gFB" eventType="touchUpInside" id="Pp5-0K-9tz"/>
                                         </connections>
                                     </button>
@@ -247,10 +252,10 @@
             </objects>
             <point key="canvasLocation" x="750" y="360"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MainPageVC" id="49e-Tb-3d3" customClass="TabBarViewController" customModule="FlexEat" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>

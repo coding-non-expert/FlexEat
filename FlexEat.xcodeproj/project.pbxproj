@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,7 +14,9 @@
 		935024FA23A6BA7800990A3C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935024F923A6BA7800990A3C /* SignUpViewController.swift */; };
 		935024FC23A6BA8000990A3C /* StartingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935024FB23A6BA8000990A3C /* StartingViewController.swift */; };
 		93916A0B23A6C8A40076A53F /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93916A0A23A6C8A40076A53F /* Utilities.swift */; };
-		93916A0E23A6CC5A0076A53F /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = 93916A0D23A6CC5A0076A53F /* GoogleService-Info (2).plist */; };
+		93916A1223A6D0510076A53F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93916A1123A6D0510076A53F /* GoogleService-Info.plist */; };
+		93916A1423A774DE0076A53F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93916A1323A774DE0076A53F /* Constants.swift */; };
+		93916A1623A778F80076A53F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93916A1523A778F80076A53F /* TabBarViewController.swift */; };
 		9392579523A68D7B0061C1B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392579423A68D7B0061C1B8 /* AppDelegate.swift */; };
 		9392579723A68D7B0061C1B8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392579623A68D7B0061C1B8 /* FirstViewController.swift */; };
 		9392579923A68D7B0061C1B8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392579823A68D7B0061C1B8 /* SecondViewController.swift */; };
@@ -52,7 +54,9 @@
 		935024F923A6BA7800990A3C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		935024FB23A6BA8000990A3C /* StartingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingViewController.swift; sourceTree = "<group>"; };
 		93916A0A23A6C8A40076A53F /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		93916A0D23A6CC5A0076A53F /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (2).plist"; sourceTree = "<group>"; };
+		93916A1123A6D0510076A53F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		93916A1323A774DE0076A53F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		93916A1523A778F80076A53F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		9392579123A68D7B0061C1B8 /* FlexEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9392579423A68D7B0061C1B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9392579623A68D7B0061C1B8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +131,7 @@
 		93916A0C23A6C8AF0076A53F /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				93916A1523A778F80076A53F /* TabBarViewController.swift */,
 				935024F923A6BA7800990A3C /* SignUpViewController.swift */,
 				9392579623A68D7B0061C1B8 /* FirstViewController.swift */,
 				9392579823A68D7B0061C1B8 /* SecondViewController.swift */,
@@ -163,11 +168,12 @@
 			children = (
 				9392579423A68D7B0061C1B8 /* AppDelegate.swift */,
 				9392579A23A68D7B0061C1B8 /* Main.storyboard */,
+				93916A1323A774DE0076A53F /* Constants.swift */,
 				93916A0C23A6C8AF0076A53F /* View Controllers */,
 				93916A0A23A6C8A40076A53F /* Utilities.swift */,
 				9392579D23A68D7E0061C1B8 /* Assets.xcassets */,
-				93916A0D23A6CC5A0076A53F /* GoogleService-Info (2).plist */,
 				9392579F23A68D7E0061C1B8 /* LaunchScreen.storyboard */,
+				93916A1123A6D0510076A53F /* GoogleService-Info.plist */,
 				939257A223A68D7E0061C1B8 /* Info.plist */,
 			);
 			path = FlexEat;
@@ -301,8 +307,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				939257A123A68D7E0061C1B8 /* LaunchScreen.storyboard in Resources */,
+				93916A1223A6D0510076A53F /* GoogleService-Info.plist in Resources */,
 				9392579E23A68D7E0061C1B8 /* Assets.xcassets in Resources */,
-				93916A0E23A6CC5A0076A53F /* GoogleService-Info (2).plist in Resources */,
 				9392579C23A68D7B0061C1B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,9 +441,11 @@
 				9392579923A68D7B0061C1B8 /* SecondViewController.swift in Sources */,
 				93916A0B23A6C8A40076A53F /* Utilities.swift in Sources */,
 				9392579523A68D7B0061C1B8 /* AppDelegate.swift in Sources */,
+				93916A1623A778F80076A53F /* TabBarViewController.swift in Sources */,
 				9392579723A68D7B0061C1B8 /* FirstViewController.swift in Sources */,
 				935024FC23A6BA8000990A3C /* StartingViewController.swift in Sources */,
 				935024FA23A6BA7800990A3C /* SignUpViewController.swift in Sources */,
+				93916A1423A774DE0076A53F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class LoginViewController: UIViewController {
 
@@ -22,13 +23,60 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func loginButtonTapped(_ sender: Any) {
+        
+        if emailTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+            passwordTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" {
+            
+            showError("Please fill in all blanks")
+            
+        } else {
+            
+            errorLabel.alpha = 0
+            
+            let email = emailTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let password = passwordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            
+            Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
+                
+                if error != nil {
+                    
+                    self.showError(error!.localizedDescription)
+                    
+                } else {
+                    
+                    self.transitionToMainPage()
+                    
+                }
+            }
+            
+        }
     }
     
     func setUpElements() {
+        
         errorLabel.alpha = 0
         Utilities.styleTextField(emailTextField)
         Utilities.styleTextField(passwordTextField)
+        
     }
+    
+    func showError(_ error: String) {
+        
+        errorLabel.alpha = 1
+        errorLabel.text = error
+        
+    }
+    
+    func transitionToMainPage() {
+        
+        let mainPageViewController =
+            storyboard?.instantiateViewController(withIdentifier: Constants.Storyboard.mainPageViewController) as? TabBarViewController
+        
+        view.window?.rootViewController = mainPageViewController
+        view.window?.makeKeyAndVisible()
+        
+    }
+    
     /*
     // MARK: - Navigation
 
