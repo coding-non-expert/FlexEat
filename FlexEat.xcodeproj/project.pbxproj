@@ -19,8 +19,15 @@
 		93916A1623A778F80076A53F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93916A1523A778F80076A53F /* TabBarViewController.swift */; };
 		93916A2223A7C6C10076A53F /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93916A2123A7C6C10076A53F /* UserInfo.swift */; };
 		93916A2623A7CACA0076A53F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93916A2523A7CACA0076A53F /* HomeViewController.swift */; };
-		93916A2823A7CAD60076A53F /* StoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93916A2723A7CAD60076A53F /* StoriesViewController.swift */; };
 		93916A2A23A7CAE00076A53F /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93916A2923A7CAE00076A53F /* GamesViewController.swift */; };
+		93916A2D23A7E86D0076A53F /* LeaderboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93916A2C23A7E86D0076A53F /* LeaderboardTableViewController.swift */; };
+		93916A2F23A7F1EA0076A53F /* QuizzesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93916A2E23A7F1EA0076A53F /* QuizzesViewController.swift */; };
+		93916A3123A7F60C0076A53F /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93916A3023A7F60C0076A53F /* Quiz.swift */; };
+		93916A3323A801FD0076A53F /* QuizLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93916A3223A801FD0076A53F /* QuizLevelViewController.swift */; };
+		93916A3523A8954D0076A53F /* FinishedQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93916A3423A8954C0076A53F /* FinishedQuizViewController.swift */; };
+		93916A3723A8AA700076A53F /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93916A3623A8AA700076A53F /* Story.swift */; };
+		93916A3923A8ACF20076A53F /* StoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93916A3823A8ACF20076A53F /* StoriesTableViewController.swift */; };
+		93916A3B23A8C2050076A53F /* turtle.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 93916A3A23A8C2040076A53F /* turtle.mp4 */; };
 		9392579523A68D7B0061C1B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392579423A68D7B0061C1B8 /* AppDelegate.swift */; };
 		9392579C23A68D7B0061C1B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9392579A23A68D7B0061C1B8 /* Main.storyboard */; };
 		9392579E23A68D7E0061C1B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9392579D23A68D7E0061C1B8 /* Assets.xcassets */; };
@@ -61,8 +68,15 @@
 		93916A1523A778F80076A53F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		93916A2123A7C6C10076A53F /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		93916A2523A7CACA0076A53F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		93916A2723A7CAD60076A53F /* StoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesViewController.swift; sourceTree = "<group>"; };
 		93916A2923A7CAE00076A53F /* GamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
+		93916A2C23A7E86D0076A53F /* LeaderboardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardTableViewController.swift; sourceTree = "<group>"; };
+		93916A2E23A7F1EA0076A53F /* QuizzesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzesViewController.swift; sourceTree = "<group>"; };
+		93916A3023A7F60C0076A53F /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Quiz.swift; path = "../View Controllers/Quiz.swift"; sourceTree = "<group>"; };
+		93916A3223A801FD0076A53F /* QuizLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizLevelViewController.swift; sourceTree = "<group>"; };
+		93916A3423A8954C0076A53F /* FinishedQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedQuizViewController.swift; sourceTree = "<group>"; };
+		93916A3623A8AA700076A53F /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		93916A3823A8ACF20076A53F /* StoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesTableViewController.swift; sourceTree = "<group>"; };
+		93916A3A23A8C2040076A53F /* turtle.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = turtle.mp4; sourceTree = "<group>"; };
 		9392579123A68D7B0061C1B8 /* FlexEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9392579423A68D7B0061C1B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9392579B23A68D7B0061C1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -135,13 +149,17 @@
 		93916A0C23A6C8AF0076A53F /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				93916A1523A778F80076A53F /* TabBarViewController.swift */,
-				935024F923A6BA7800990A3C /* SignUpViewController.swift */,
 				935024FB23A6BA8000990A3C /* StartingViewController.swift */,
-				93916A2523A7CACA0076A53F /* HomeViewController.swift */,
-				93916A2723A7CAD60076A53F /* StoriesViewController.swift */,
-				93916A2923A7CAE00076A53F /* GamesViewController.swift */,
+				935024F923A6BA7800990A3C /* SignUpViewController.swift */,
 				935024F723A6B57100990A3C /* LoginViewController.swift */,
+				93916A1523A778F80076A53F /* TabBarViewController.swift */,
+				93916A2523A7CACA0076A53F /* HomeViewController.swift */,
+				93916A2923A7CAE00076A53F /* GamesViewController.swift */,
+				93916A3823A8ACF20076A53F /* StoriesTableViewController.swift */,
+				93916A3223A801FD0076A53F /* QuizLevelViewController.swift */,
+				93916A2E23A7F1EA0076A53F /* QuizzesViewController.swift */,
+				93916A3423A8954C0076A53F /* FinishedQuizViewController.swift */,
+				93916A2C23A7E86D0076A53F /* LeaderboardTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -149,6 +167,8 @@
 		93916A2B23A7D5D40076A53F /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				93916A3023A7F60C0076A53F /* Quiz.swift */,
+				93916A3623A8AA700076A53F /* Story.swift */,
 				93916A2123A7C6C10076A53F /* UserInfo.swift */,
 				93916A1323A774DE0076A53F /* Constants.swift */,
 				93916A0A23A6C8A40076A53F /* Utilities.swift */,
@@ -186,6 +206,7 @@
 				93916A2B23A7D5D40076A53F /* Helpers */,
 				93916A0C23A6C8AF0076A53F /* View Controllers */,
 				9392579D23A68D7E0061C1B8 /* Assets.xcassets */,
+				93916A3A23A8C2040076A53F /* turtle.mp4 */,
 				9392579F23A68D7E0061C1B8 /* LaunchScreen.storyboard */,
 				93916A1123A6D0510076A53F /* GoogleService-Info.plist */,
 				939257A223A68D7E0061C1B8 /* Info.plist */,
@@ -321,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				939257A123A68D7E0061C1B8 /* LaunchScreen.storyboard in Resources */,
+				93916A3B23A8C2050076A53F /* turtle.mp4 in Resources */,
 				93916A1223A6D0510076A53F /* GoogleService-Info.plist in Resources */,
 				9392579E23A68D7E0061C1B8 /* Assets.xcassets in Resources */,
 				9392579C23A68D7B0061C1B8 /* Main.storyboard in Resources */,
@@ -451,17 +473,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93916A2823A7CAD60076A53F /* StoriesViewController.swift in Sources */,
 				935024F823A6B57100990A3C /* LoginViewController.swift in Sources */,
+				93916A3323A801FD0076A53F /* QuizLevelViewController.swift in Sources */,
+				93916A3723A8AA700076A53F /* Story.swift in Sources */,
+				93916A3123A7F60C0076A53F /* Quiz.swift in Sources */,
 				93916A0B23A6C8A40076A53F /* Utilities.swift in Sources */,
+				93916A3923A8ACF20076A53F /* StoriesTableViewController.swift in Sources */,
 				9392579523A68D7B0061C1B8 /* AppDelegate.swift in Sources */,
+				93916A2F23A7F1EA0076A53F /* QuizzesViewController.swift in Sources */,
 				93916A1623A778F80076A53F /* TabBarViewController.swift in Sources */,
 				935024FC23A6BA8000990A3C /* StartingViewController.swift in Sources */,
 				93916A2623A7CACA0076A53F /* HomeViewController.swift in Sources */,
+				93916A3523A8954D0076A53F /* FinishedQuizViewController.swift in Sources */,
 				93916A2A23A7CAE00076A53F /* GamesViewController.swift in Sources */,
 				935024FA23A6BA7800990A3C /* SignUpViewController.swift in Sources */,
 				93916A2223A7C6C10076A53F /* UserInfo.swift in Sources */,
 				93916A1423A774DE0076A53F /* Constants.swift in Sources */,
+				93916A2D23A7E86D0076A53F /* LeaderboardTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

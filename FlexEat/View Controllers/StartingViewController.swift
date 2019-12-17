@@ -12,7 +12,6 @@ import AVKit
 class StartingViewController: UIViewController {
     
     var videoPlayer: AVPlayer?
-    
     var videoPlayerLayer: AVPlayerLayer?
 
     @IBOutlet weak var signUpButton: UIButton!
@@ -20,7 +19,7 @@ class StartingViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         //Uncomment the line below and the function below to enable video playing
-        //setUpVideo()
+        setUpVideo()
     }
     
     override func viewDidLoad() {
@@ -35,10 +34,10 @@ class StartingViewController: UIViewController {
         
     }
     
-    /*func setUpVideo() {
+    func setUpVideo() {
         
         //Get path to the resource in the bundle
-        let bundlePath = Bundle.main.path(forResource: <#T##String?#>, ofType: "mp4")
+        let bundlePath = Bundle.main.path(forResource: "turtle", ofType: "mp4")
         
         guard bundlePath != nil else {
             return
@@ -57,17 +56,17 @@ class StartingViewController: UIViewController {
         videoPlayerLayer = AVPlayerLayer(player: videoPlayer!)
         
         //Adjust the size and frame
-        videoPlayerLayer?.frame = CGRect(x: -self.view.frame.size.width*1.5,
+        videoPlayerLayer?.frame = CGRect(x: -self.view.frame.size.width*1.6,
                                          y: 0,
-                                         width: self.view.frame.size.width*4,
-                                         height: self.frame.view.size.height)
+                                         width: self.view.frame.size.width*3,
+                                         height: self.view.frame.size.height)
      
         view.layer.insertSublayer(videoPlayerLayer!, at: 0)
         
         //Add it to the view and play it
-        videoPlayer?.playImmediately(atRate: 0.3)
+        videoPlayer?.playImmediately(atRate: 1)
         
-    }*/
+    }
 
     /*
     // MARK: - Navigation

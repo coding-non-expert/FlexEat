@@ -9,8 +9,12 @@
 import UIKit
 import FirebaseAuth
 import Firebase
+import AVKit
 
 class SignUpViewController: UIViewController {
+    
+    var videoPlayer: AVPlayer?
+    var videoPlayerLayer: AVPlayerLayer?
 
     @IBOutlet weak var firstNameTextField: UITextField!
     @IBOutlet weak var lastNameTextField: UITextField!
@@ -22,6 +26,7 @@ class SignUpViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpElements()
+        setUpVideo()
     }
     
     //Check the fields and validate the data is correct. If everything is correct, this method returns nil. Otherwise, it returns the error message.
@@ -116,6 +121,41 @@ class SignUpViewController: UIViewController {
         view.window?.makeKeyAndVisible()
         
     }
+    
+    func setUpVideo() {
+        
+        //Get path to the resource in the bundle
+        let bundlePath = Bundle.main.path(forResource: "turtle", ofType: "mp4")
+        
+        guard bundlePath != nil else {
+            return
+        }
+        
+        //Create url
+        let url = URL(fileURLWithPath: bundlePath!)
+        
+        //Create player item
+        let item = AVPlayerItem(url: url)
+        
+        //Create the player
+        videoPlayer = AVPlayer(playerItem: item)
+        
+        //Create the layer
+        videoPlayerLayer = AVPlayerLayer(player: videoPlayer!)
+        
+        //Adjust the size and frame
+        videoPlayerLayer?.frame = CGRect(x: -self.view.frame.size.width*1.6,
+                                         y: 0,
+                                         width: self.view.frame.size.width*3,
+                                         height: self.view.frame.size.height)
+        
+        view.layer.insertSublayer(videoPlayerLayer!, at: 0)
+        
+        //Add it to the view and play it
+        videoPlayer?.playImmediately(atRate: 1)
+        
+    }
+    
     /*
     // MARK: - Navigation
 

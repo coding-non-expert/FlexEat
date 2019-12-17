@@ -12,6 +12,8 @@ struct Constants {
     
     struct Storyboard {
         static let mainPageViewController = "MainPageVC"
+        static let quizViewController = "QuizVC"
+        static let finishedQuizViewController = "FinishedQuizVC"
     }
     
 }
